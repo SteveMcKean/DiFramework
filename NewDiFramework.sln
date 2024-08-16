@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer.ConsoleApp", "Consumer.ConsoleApp\Consumer.ConsoleApp.csproj", "{5290648F-8198-47BA-8948-8DA755C247D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vax", "Vax\Vax.csproj", "{CEC25AF8-8CBE-4EF3-9DB9-F08964649889}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5290648F-8198-47BA-8948-8DA755C247D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5290648F-8198-47BA-8948-8DA755C247D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5290648F-8198-47BA-8948-8DA755C247D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5290648F-8198-47BA-8948-8DA755C247D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEC25AF8-8CBE-4EF3-9DB9-F08964649889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEC25AF8-8CBE-4EF3-9DB9-F08964649889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEC25AF8-8CBE-4EF3-9DB9-F08964649889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEC25AF8-8CBE-4EF3-9DB9-F08964649889}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
