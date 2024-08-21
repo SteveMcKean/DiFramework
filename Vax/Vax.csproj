@@ -6,4 +6,11 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Remove="ServiceCollection.cs" />
+      <Compile Remove="ServiceDescriptor.cs" />
+      <Compile Remove="ServiceLifetime.cs" />
+      <Compile Remove="ServiceProvider.cs" />
+    </ItemGroup>
+
 </Project>
