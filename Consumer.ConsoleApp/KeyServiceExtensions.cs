@@ -5,7 +5,7 @@ namespace Consumer.ConsoleApp;
 public static class KeyedServiceExtensions
 {
     // Dictionary to store services by key
-    private static readonly Dictionary<string, Type> _serviceTypes = new();
+    private static readonly Dictionary<string, Type> serviceTypes = new();
 
     public static IServiceCollection AddKeyedService<TService, TImplementation>(this IServiceCollection services, string key)
         where TService : class
@@ -13,7 +13,7 @@ public static class KeyedServiceExtensions
     {
         // Register the service with the DI container
         services.AddTransient<TImplementation>();
-        _serviceTypes[key] = typeof(TImplementation);
+        serviceTypes[key] = typeof(TImplementation);
 
         return services;
     }
@@ -21,7 +21,7 @@ public static class KeyedServiceExtensions
     public static TService GetKeyedService<TService>(this IServiceProvider serviceProvider, string key)
         where TService : class
     {
-        if (_serviceTypes.TryGetValue(key, out var serviceType))
+        if (serviceTypes.TryGetValue(key, out var serviceType))
         {
             return serviceProvider.GetService(serviceType) as TService;
         }

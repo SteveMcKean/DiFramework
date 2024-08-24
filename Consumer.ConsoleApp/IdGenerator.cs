@@ -3,6 +3,7 @@
 public class IdGenerator : IIdGenerator
 {
     private readonly IConsoleWriter consoleWriter;
+    
     public Guid Id { get; } = Guid.NewGuid();
     
     public IdGenerator(IConsoleWriter consoleWriter)
