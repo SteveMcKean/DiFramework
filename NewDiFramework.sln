@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vax", "Vax\Vax.csproj", "{C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiFunction.ConsoleApp", "MultiFunction.ConsoleApp\MultiFunction.ConsoleApp.csproj", "{5389C0D1-B25E-4B92-9180-3B3D50B58AF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI.Jab.Console", "DI.Jab.Console\DI.Jab.Console.csproj", "{8653A515-FC32-4D40-A127-655933B3B8BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{5389C0D1-B25E-4B92-9180-3B3D50B58AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5389C0D1-B25E-4B92-9180-3B3D50B58AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5389C0D1-B25E-4B92-9180-3B3D50B58AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8653A515-FC32-4D40-A127-655933B3B8BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8653A515-FC32-4D40-A127-655933B3B8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8653A515-FC32-4D40-A127-655933B3B8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8653A515-FC32-4D40-A127-655933B3B8BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

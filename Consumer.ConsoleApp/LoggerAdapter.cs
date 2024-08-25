@@ -15,4 +15,14 @@ public class LoggerAdapter<TType> : ILoggerAdapter<TType>
     {
         logger.LogInformation(template, args);    
     }
+
+    public void LogInformation(LogLevel logLevel, string template, object[] args)
+    {
+        logger.Log(logLevel, template, args);
+    }
+
+    public IDisposable TimedOperation(string template, object[] args)
+    {
+        return new TimedLogOperation<TType>(this, LogLevel.Information, template, args);
+    }
 }
