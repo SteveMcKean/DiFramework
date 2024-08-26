@@ -18,16 +18,5 @@ public class LoggedWeatherService : IWeatherService
     {
         using var _ = logger.TimedOperation("Weather retrieval for {0}, ", [city]); 
         return await weatherService.GetWeatherAsync(city);
-        
-        // var sw = Stopwatch.StartNew();
-        // try
-        // {
-        //     return await weatherService.GetWeatherAsync(city);
-        // }
-        // finally
-        // {
-        //     sw.Stop();
-        //     logger.LogInformation("GetWeatherAsync took {ElapsedMilliseconds}ms", sw.ElapsedMilliseconds);
-        // }
     }
 }
